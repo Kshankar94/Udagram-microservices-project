@@ -14,5 +14,5 @@ services:
     image: kripashan/udagram-feed
   frontend:
     build:
-      context: ../../udagram-frontend  
+      context: ../udagram-microservices-project/udagram-frontend  
     image: kripashan/udagram-frontend
